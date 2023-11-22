@@ -1,0 +1,129 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/bridge/src",
+  "monorepo": true,
+  "root": "apps/bridge",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/bridge/tsconfig.app.json"
+  },
+  "projects": {
+    "bridge": {
+      "type": "application",
+      "root": "apps/bridge",
+      "entryFile": "main",
+      "sourceRoot": "apps/bridge/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/bridge/tsconfig.app.json"
+      }
+    },
+    "init-service": {
+      "type": "application",
+      "root": "apps/init-service",
+      "entryFile": "main",
+      "sourceRoot": "apps/init-service/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/init-service/tsconfig.app.json"
+      }
+    },
+    "configuration": {
+      "type": "library",
+      "root": "libs/configuration",
+      "entryFile": "index",
+      "sourceRoot": "libs/configuration/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/configuration/tsconfig.lib.json"
+      }
+    },
+    "connectors": {
+      "type": "library",
+      "root": "libs/connectors",
+      "entryFile": "index",
+      "sourceRoot": "libs/connectors/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/connectors/tsconfig.lib.json"
+      }
+    },
+    "entities": {
+      "type": "library",
+      "root": "libs/entities",
+      "entryFile": "index",
+      "sourceRoot": "libs/entities/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/entities/tsconfig.lib.json"
+      }
+    },
+    "constants": {
+      "type": "library",
+      "root": "libs/constants",
+      "entryFile": "index",
+      "sourceRoot": "libs/constants/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/constants/tsconfig.lib.json"
+      }
+    },
+    "polygon-listener": {
+      "type": "application",
+      "root": "apps/polygon-listener",
+      "entryFile": "main",
+      "sourceRoot": "apps/polygon-listener/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/polygon-listener/tsconfig.app.json"
+      }
+    },
+    "dao": {
+      "type": "library",
+      "root": "libs/dao",
+      "entryFile": "index",
+      "sourceRoot": "libs/dao/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/dao/tsconfig.lib.json"
+      }
+    },
+    "entitie": {
+      "type": "library",
+      "root": "libs/entitie",
+      "entryFile": "index",
+      "sourceRoot": "libs/entitie/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/entitie/tsconfig.lib.json"
+      }
+    },
+    "check-transaction": {
+      "type": "library",
+      "root": "libs/check-transaction",
+      "entryFile": "index",
+      "sourceRoot": "libs/check-transaction/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/check-transaction/tsconfig.lib.json"
+      }
+    },
+    "utils": {
+      "type": "library",
+      "root": "libs/utils",
+      "entryFile": "index",
+      "sourceRoot": "libs/utils/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/utils/tsconfig.lib.json"
+      }
+    },
+    "rosseta-api": {
+      "type": "library",
+      "root": "libs/rosseta-api",
+      "entryFile": "index",
+      "sourceRoot": "libs/rosseta-api/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/rosseta-api/tsconfig.lib.json"
+      }
+    },
+    "icp-transaction": {
+      "type": "library",
+      "root": "libs/icp-transaction",
+      "entryFile": "index",
+      "sourceRoot": "libs/icp-transaction/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/icp-transaction/tsconfig.lib.json"
+      }
+    }
+  }
+}

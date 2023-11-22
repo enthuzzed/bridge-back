@@ -1,0 +1,35 @@
+core_db:
+  type: 'postgres'
+  host: 'postgres'
+  port: 5432
+  database: 'df-bridge'
+  username: 'postgres'
+  password: 'postgres'
+  synchronize: false
+
+
+blockchain:
+  polygonUrl: 'wss://polygon-mainnet.g.alchemy.com/v2/JzP7oJrtHDuGKaEvY5dlMr7q5PtUoavL'
+  dfinityUrl: 'https://ic0.app'
+  abiFilesDir: './files/abi_files'
+  didFilesDir: './files/did_files'
+
+polygon_bridge:
+  contractAddress: '0xCCeDb164093843489214594F036AFd3066CC12b5'
+  owner: '0x1d041E0e8b34023A73488b0A4dfe90acD4951B89'
+  privateKey: '7ea78c6161bdd6a1ce553e7ea2ed214878e9c7bb1eb5ef3db9ef162164c1e47d'
+
+polygon_token:
+  contractAddress: '0xF86cdDD974177b25FC336Dbcd778157e977B37dB'
+  owner: '0x1d041E0e8b34023A73488b0A4dfe90acD4951B89'
+  privateKey: '7ea78c6161bdd6a1ce553e7ea2ed214878e9c7bb1eb5ef3db9ef162164c1e47d'
+
+
+dfinity_bridge:
+  contractAddress: 'ilbmo-xiaaa-aaaap-aalpq-cai'
+  address: '4adfcf9651c57e6fd68d9bbc3a4d554432dcf0f4d3ad1557e36a45a50ec979ff'
+
+dfinity_token:
+  contractAddress: 'nq3q7-ryaaa-aaaap-aalqq-cai'
+  address: 'bd472d4710f20a232bed80fd07ad460a3a1615d613f323ae21cc0081de4e3f3c'
+

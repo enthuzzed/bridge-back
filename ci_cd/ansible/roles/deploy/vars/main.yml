@@ -1,0 +1,9 @@
+---
+# vars file for deploy_backend
+sleeptime: 10
+    
+services_for_compose: {
+    "bridge":    "3000:3000",
+    "init-service",
+    "polygon-listener": "3001:3001",
+    }

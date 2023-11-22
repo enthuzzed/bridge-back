@@ -1,0 +1,25 @@
+{
+  "core_db": {
+    "type": "DB_TYPE",
+    "host": "DB_HOST",
+    "port": "DB_PORT",
+    "database": "DB_DATABASE",
+    "username": "DB_USERNAME",
+    "password": "DB_PASSWORD",
+    "synchronize": "DB_SYNCHRONIZE"
+  },
+  "blockchain": {
+    "polygonUrl": "POLYGON_URL",
+    "dfinityUrl": "DFINITY_URL",
+    "abiFilesDir": "BLOCKCHAIN_ABI_FILES_DIR",
+    "didFilesDir": "BLOCKCHAIN_DID_FILES_DIR"
+  },
+  "polygon_bridge": {
+    "contractAddress": "VIDEO_NFT_CONTRACT_ADDRESS",
+    "owner": "VIDEO_NFT_OWNER",
+    "privateKey": "VIDEO_NFT_PRIVATE_KEY"
+  },
+  "dfinity_bridge": {
+    "canisterId": "DFINITY_BRIDGE_CANISTER_ID"
+  }
+}

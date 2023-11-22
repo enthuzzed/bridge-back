@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowJs": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/configuration": [
+        "libs/configuration/src"
+      ],
+      "@app/configuration/*": [
+        "libs/configuration/src/*"
+      ],
+      "@app/connectors": [
+        "libs/connectors/src"
+      ],
+      "@app/connectors/*": [
+        "libs/connectors/src/*"
+      ],
+      "@app/constants": [
+        "libs/constants/src"
+      ],
+      "@app/constants/*": [
+        "libs/constants/src/*"
+      ],
+      "@app/dao": [
+        "libs/dao/src"
+      ],
+      "@app/dao/*": [
+        "libs/dao/src/*"
+      ],
+      "@app/entitie": [
+        "libs/entitie/src"
+      ],
+      "@app/entitie/*": [
+        "libs/entitie/src/*"
+      ],
+      "@app/check-transaction": [
+        "libs/check-transaction/src"
+      ],
+      "@app/check-transaction/*": [
+        "libs/check-transaction/src/*"
+      ],
+      "@app/utils": [
+        "libs/utils/src"
+      ],
+      "@app/utils/*": [
+        "libs/utils/src/*"
+      ],
+      "@app/rosseta-api": [
+        "libs/rosseta-api/src"
+      ],
+      "@app/rosseta-api/*": [
+        "libs/rosseta-api/src/*"
+      ],
+      "@app/icp-transaction": [
+        "libs/icp-transaction/src"
+      ],
+      "@app/icp-transaction/*": [
+        "libs/icp-transaction/src/*"
+      ]
+    }
+  }
+}

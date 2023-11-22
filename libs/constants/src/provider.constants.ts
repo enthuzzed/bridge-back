@@ -1,0 +1,2 @@
+export const WEB3_PROVIDER = 'WEB3_PROVIDER';
+export const DFINITY_PROVIDER = 'DFINITY_PROVIDER';
